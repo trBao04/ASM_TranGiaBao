@@ -1,0 +1,92 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(backgroudASM.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#account-info {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+h2 {
+    text-align: center;
+    color: #3498db;
+}
+
+div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+input[disabled] {
+    background-color: #f0f0f0;
+    cursor: not-allowed;
+}
+
+button#update-btn {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button#update-btn:hover {
+    background-color: #2980b9;
+}
+#back-button {
+    display: block;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    width: 500px;
+    text-decoration: none;
+    cursor: pointer;   
+}
+
+#back-button a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+#back-button:hover {
+background-color: #2874a6;
+}
+
+

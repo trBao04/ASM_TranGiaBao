@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+    background-image: url(backgroudASM.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Chiều cao của màn hình */
+    margin: 0; /* Loại bỏ margin mặc định */
+}
+.aboutus{
+    margin-top: 100px;
+    background-color: white;
+    width: 1000px;
+    text-align: center;
+}
+.lh{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+.lh a {
+    text-decoration: none; /* Bỏ gạch chân */
+    color: black;          /* Màu chữ */
+    margin: 0 0px;         /* Giảm khoảng cách giữa hai liên kết */
+    font-size: 16px;       /* Kích thước chữ */
+}
+
+.lh a:hover {
+    color: orange;         /* Màu khi hover */
+}
